@@ -15,7 +15,7 @@ git clone <repo>
 `cd` into your new folder and run:
 - `npm install`
 
-Install loaders and plugins
+Install loaders and plugins.
 ## Choose the necessary installation for your development mode
 npm i -D @babel/core @babel/preset-env babel-loader
 npm i -D style-loader node-sass css-loader sass-loader
