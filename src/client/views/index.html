@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Api Form</title>
+        
+        
+    <script src="https://kit.fontawesome.com/2162da8111.js" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body>
+
+        <div id="contianer">
+        <header class="header">
+            <nav>
+             <ul>
+                <li class="list"> <a class="link" href="#About-Me">About Me</a></li>
+                <li class="list"> <a class="link" href="#Api_form">Api Form </a> </li>
+            </ul>
+            </nav>
+            
+        </header>
+
+        <main>
+            
+            <section id="About-Me" data-nav="About Me " class="About-Me">
+                <div class="landing__container">
+                    <h2 style="color: black;"> About Me </h2>
+                    <p style="color: black; font-size: 20px;">
+                        A Young Developer Who Is In Love With Web Applications And Can Not Stop Coding <br>
+                         interested in making the web accessible to everyone. and passionate about being a web developer
+                    </p>
+
+                    <button class="button-blog"><a href="https://www.linkedin.com/in/wejdan-altaleb-362403198/" target="_blank"> Amout Me → </a></button>
+
+                </div>
+            </section>  <!-- this section Donne  -->
+           
+
+
+<section id="Api_form">
+    <p style="text-align: center; color:black; font-size:30px; font-weight:bold">Please Enter  URL of an article to discover its sentiment.</p>
+ 
+        <div class="form_style">
+        <form class="" onsubmit="return Client.handleSubmit(event)">
+        <input id="url" type="text" name="input" value=""  placeholder="Enter URL here please">
+        <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return handleSubmit(event)">
+        </form>
+
+        
+               <div class="textBox">
+                   <strong>Your Results:</strong>
+                <div id="agreement">agreement</div>
+                <div id="subjectivity">subjectivity</div>
+                <div id="confidence">confidence</div>
+               
+            </div> 
+            </div>
+</section>
+
+            
+                
+          
+
+        </main>
+
+        <footer>
+            
+                <h5> © Design by Wejdan Altaleb. </h5>
+
+                <a href="https://www.linkedin.com/in/wejdan-altaleb-362403198/" target="_blank">
+                    <i class='fo fa fa-linkedin'></i>
+                </a>
+                <a href="https://github.com/wjdan-1997" target="_blank"><i class='fo fa fa-github'></i></a>
+          
+        </footer>
+    </div>
+        <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                    navigator.serviceWorker.register('/service-worker.js');
+                });
+            }
+           </script>
+    </body>
+</html>

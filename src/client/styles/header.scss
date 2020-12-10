@@ -1,0 +1,30 @@
+$header-color: #000;
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+nav{
+    align-items: center;
+    /* background-color: $color-light; */
+    box-shadow: 0 0.5rem 2rem rgba(106, 80, 167, 0.692);
+    display: flex;
+    justify-content:center;
+    width: 95vw;
+   
+
+}
+ ul {
+    align-items: center;
+        color:$header-color;
+        display: flex;
+        justify-content: center;
+        text-transform: capitalize;
+        font-size: 22px; 
+        font-weight: bold;
+}
+ li {
+    display:inline-block;
+    padding:20px;
+   
+}

@@ -1,0 +1,31 @@
+ $a-color: rgb(102, 74, 228);
+ $body-color :#fff;
+$b-color: rgba(132, 161, 214, 0.315) ;
+body {
+     background-color: $b-color;
+      background:  url(../image/lol.jpg)no-repeat  center/cover;
+    //  background-repeat: no-repeat;
+    //  background-position: center;
+    //  background-size: cover;
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+      //color: $body-color;
+       
+
+}
+main {
+  margin: 10vh 1em 10vh;
+}
+
+section {
+  position: relative;
+  min-height: 39vh;
+}
+a{
+  text-decoration: none;
+   color:black;
+}
+a:hover{
+  color:$a-color;
+}
